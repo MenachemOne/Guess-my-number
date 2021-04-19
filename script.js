@@ -1,17 +1,5 @@
 'use strict';
-/*
-console.log(document.querySelector('.message').textContent);
 
-document.querySelector('.message').textContent = '🎉🍾Correct Number';
-
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 10;
-
-document.querySelector('.guess').value = 23;
-
-console.log(document.querySelector('.guess').value);
-
-*/
 $.getJSON(
   'https://api.openweathermap.org/data/2.5/weather?q=Tel%20Aviv&units=metric&appid=ce3a6af75434d90c5094c585efca134e',
   function (data) {
